@@ -27,7 +27,7 @@ int Value[19];
 const char* ssid = WIFI_SSID;
 const char* password = WIFI_PASS;
 HTTPClient http;
-String server_address = "http://192.168.0.13:8888";
+String server_address = IP_ADDRESS;
 double danceability = -1;
 double energy = -1;
 double valence = -1;
